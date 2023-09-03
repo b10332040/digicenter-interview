@@ -1,0 +1,59 @@
+.chart-card {
+  border: 2px solid #1f375c;
+
+  &__title {
+    color: #cbe4e9;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+
+  &__amount-label {
+    position: relative;
+    padding-bottom: 1.2rem;
+    font-size: 1.8rem;
+    color: #416996;
+    font-weight: normal;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      bottom: 0;
+      min-width: 70px;
+      border-bottom: 1px solid #255d9b;
+    }
+    
+    &.blue {
+      color: #416996;
+    }
+
+    &.green {
+      color: #009e9c;
+    }
+  
+    &.orange {
+      color: #cc9a00;
+    }
+  }
+
+  &__amount {
+    font-size: 3.6rem;
+    color: #009e9c;
+    &.green {
+      color: #009e9c;
+    }
+    &.white {
+      color: #cbe4e9;
+    }
+  }
+
+  &__unit {
+    display: inline-block;
+    margin-left: .8rem;
+    vertical-align: middle;
+    font-size: 1.6rem;
+    color: #516c91;
+  }
+}

@@ -1,9 +1,13 @@
-import recentlyMembersChartData from "./recentlyMembersChartData"
-import responseTimesChartData from "./responseTimesChartData"
-import totalTransactionsChartData from "./totalTransactionsChartData"
+import recentlyMembers from "./recentlyMembers"
+import responseTimes from "./responseTimes"
+import totalTransaction from "./totalTransactions"
+import transactionFailed from "./transactionFailed"
+import timeoutTransaction from "./timeoutTransaction"
 
 export {
-  recentlyMembersChartData,
-  responseTimesChartData,
-  totalTransactionsChartData
+  recentlyMembers,
+  responseTimes,
+  totalTransaction,
+  transactionFailed,
+  timeoutTransaction
 }
