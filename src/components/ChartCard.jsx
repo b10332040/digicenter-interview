@@ -3,9 +3,9 @@ import styles from '/styles/chartCard.module.scss'
 
 const ChartCard = ({ className='', children }) => {
   return (
-    <div className={`${className} ${styles['chart-card']}`}>
+    <section className={`${className} ${styles['chart-card']}`}>
       { children }
-    </div>
+    </section>
   )
 }
 ChartCard.propTypes = {

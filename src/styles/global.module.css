@@ -151,12 +151,14 @@ table {
 
 html {
   font-size: 10px;
+  height: 100%;
 }
 
 body {
   color: var(--color-default);
   font-size: 1.2rem;
   font-family: sans-serif;
+  height: 100%;
 }
 
 /* start - h1 ~ h6 */
@@ -199,6 +201,10 @@ a * {
 }
 
 /* close - h1 ~ h6 */
+
+:global(#root) {
+  height: 100%;
+}
 
 /* start - form */
 ::placeholder {
